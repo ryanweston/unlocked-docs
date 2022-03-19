@@ -1,0 +1,25 @@
+@import '@vuepress/theme-default/lib/client/styles/_variables';
+
+:root {
+  // brand colors
+  --c-brand: #000;
+
+  // background colors
+  --c-bg: #ffffff;
+
+  // text colors
+  --c-text: #000;
+}
+
+// DARK MODE OVERRIDES
+
+html.dark {
+  // brand colors
+  --c-brand: #FFF;
+
+  // background colors
+  --c-bg: #000;
+
+  // text colors
+  --c-text: #FFF;
+}

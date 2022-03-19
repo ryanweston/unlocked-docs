@@ -1,5 +1,6 @@
 import { defineUserConfig } from 'vuepress'
 import type { DefaultThemeOptions } from 'vuepress'
+const { path } = require('@vuepress/utils')
 
 export const sidebar = [
     {
@@ -7,7 +8,11 @@ export const sidebar = [
       children: [
         {
           text: 'Installation',
-          link: '/introduction/getting-started.md'
+          link: '/getting-started/installation.md'
+        },
+        {
+          text: 'Styling',
+          link: '/getting-started/styling.md'
         }
       ]
     },
@@ -38,7 +43,7 @@ export default defineUserConfig<DefaultThemeOptions>({
   description: 'Unlocked UI component documentation',
 
   // theme and its config
-  theme: '@vuepress/theme-default',
+  theme: path.resolve(__dirname, './theme'),
   themeConfig: {
     sidebar,
     // logo: 'https://vuejs.org/images/logo.png',

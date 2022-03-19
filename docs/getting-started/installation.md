@@ -1,6 +1,6 @@
-# Creating a Vue Application
+# Installation
 
-## The application instance
+## Global registration
 
 Every Vue application starts by creating a new **application instance** with the [`createApp`](/api/application#createapp) function:
 
@@ -12,7 +12,7 @@ const app = createApp({
 })
 ```
 
-## The Root Component
+## Modular registration
 
 The object we are passing into `createApp` is in fact a component. Every app requires a "root component" that can contain other components as its children.
 
