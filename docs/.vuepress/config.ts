@@ -41,7 +41,6 @@ export default defineUserConfig<DefaultThemeOptions>({
   lang: 'en-US',
   title: 'Unlocked',
   description: 'Unlocked UI component documentation',
-  base: '/unlocked-docs/',
   // theme and its config
   theme: path.resolve(__dirname, './theme'),
   themeConfig: {
