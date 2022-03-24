@@ -35,7 +35,6 @@ export const sidebar = [
     }
   ]
 
-
 export default defineUserConfig<DefaultThemeOptions>({
   // site config
   lang: 'en-US',
@@ -44,6 +43,7 @@ export default defineUserConfig<DefaultThemeOptions>({
   // theme and its config
   theme: path.resolve(__dirname, './theme'),
   themeConfig: {
+    logo: '/images/logo.svg',
     docsRepo: 'ryanweston/unlocked-docs',
     repo: 'ryanweston/',
     sidebar,
