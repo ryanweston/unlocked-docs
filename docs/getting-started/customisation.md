@@ -20,6 +20,10 @@ export default {
 }
 ```
 
+More information on this can be found in the [creating a theme page]('/styles/creating-a-theme').
+
 ## Overriding
 
-## Custom theme
+The default theme is constructed through the imported class files for every component. This modularity ensures that we can now go in and customise the component themes in an accessible way by overriding the default theme.
+
+#### Override the theme

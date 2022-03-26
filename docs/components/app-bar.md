@@ -1,9 +1,9 @@
 ---
-title: Your Title
+title: App bar
 ---
-# Button
+# App bar
 
-Button component for Unlocked.
+App bar component for Unlocked.
 
 #### Install
 ```js
@@ -12,7 +12,7 @@ npm i @unlocked/foundation
 
 #### Import
 ```js
-import { UButton } from '@unlocked/foundation
+import { UAppBar } from '@unlocked/foundation
 ```
 ## Usage
 

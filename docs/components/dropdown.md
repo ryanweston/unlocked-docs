@@ -1,9 +1,9 @@
 ---
-title: Your Title
+title: Dropdown
 ---
-# Button
+# Dropdown
 
-Button component for Unlocked.
+Dropdown component for Unlocked.
 
 #### Install
 ```js
@@ -12,7 +12,7 @@ npm i @unlocked/foundation
 
 #### Import
 ```js
-import { UButton } from '@unlocked/foundation
+import { UDropdown } from '@unlocked/foundation
 ```
 ## Usage
 

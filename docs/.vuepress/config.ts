@@ -11,8 +11,21 @@ export const sidebar = [
           link: '/getting-started/installation.md'
         },
         {
-          text: 'Styling',
-          link: '/getting-started/styling.md'
+          text: 'Customisation',
+          link: '/getting-started/customisation.md'
+        }
+      ]
+    },
+    {
+      text: 'Styles',
+      children: [
+        {
+          text: 'Creating a theme',
+          link: '/styles/creating-a-theme.md'
+        },
+        {
+          text: 'Design tokens',
+          link: '/styles/design-tokens.md'
         }
       ]
     },
@@ -20,16 +33,28 @@ export const sidebar = [
       text: 'Components',
       children: [
         {
+          text: 'Icon',
+          link: '/components/icon.md'
+        },
+        {
           text: 'Button',
           link: '/components/button'
         },
         {
-          text: 'Navigation',
-          link: '/components/navigation'
+          text: 'App bar',
+          link: '/components/app-bar'
         },
         {
-          text: 'Table',
-          link: '/components/table'
+          text: 'Typography',
+          link: '/components/typography'
+        },
+        {
+          text: 'Dropdown',
+          link: '/components/dropdown'
+        },
+        {
+          text: 'Footer',
+          link: '/components/footer'
         },
       ]
     }
