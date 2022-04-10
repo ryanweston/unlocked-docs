@@ -9,6 +9,11 @@
 
   // text colors
   --c-text: #000;
+
+  p > a {
+    text-decoration: underline;
+    font-weight:700;
+  }
 }
 
 // DARK MODE OVERRIDES
@@ -16,6 +21,7 @@
 html.dark {
   // brand colors
   --c-brand: #FFF;
+  
 
   // background colors
   --c-bg: #000;
