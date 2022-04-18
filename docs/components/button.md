@@ -5,6 +5,14 @@ title: Your Title
 
 Button component for Unlocked.
 
+ <iframe
+  src="https://www.storybook.unlocked.to/iframe.html?id=components-button--default&viewMode=story"
+  width="100%"
+  height="70"
+></iframe>
+
+[View on storybook](https://storybook.unlocked.to)
+
 #### Install
 ```js
 npm i @unlocked/foundation

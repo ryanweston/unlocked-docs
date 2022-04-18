@@ -1,6 +1,10 @@
 @import '@vuepress/theme-default/lib/client/styles/_variables';
 
 :root {
+  iframe { 
+    border:0px;
+    border-radius: 10px;
+  }
   // brand colors
   --c-brand: #000;
 
