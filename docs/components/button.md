@@ -6,55 +6,83 @@ title: Your Title
 Button component for Unlocked.
 
  <iframe
-  src="https://www.storybook.unlocked.to/iframe.html?id=components-button--default&viewMode=story"
+  src="https://www.storybook.unlocked.to/iframe.html?id=components-button--primary&viewMode=story"
   width="100%"
   height="70"
 ></iframe>
 
 [View on storybook](https://storybook.unlocked.to)
+## Usage
 
 #### Install
-```js
-npm i @unlocked/foundation
+```bash
+npm install @unlocked/base
 ```
 
 #### Import
 ```js
-import { UButton } from '@unlocked/foundation
+import { UButton } from '@unlocked/base
 ```
-## Usage
 
+#### Syntax 
 ```html
-<Button>Example</Button>
+<UButton>Example</UButton>
 ```
-### Variants
+## Variants
 
-There are a multitude of variants to make use of with the button component. These are `warning`, `error`, `text` and `secondary`.
+There are a multitude of variants to make use of with the button component. These are `success`, `error`, `text` and `secondary`.
 
 ```js
 <Button type='secondary'>Example</Button>
 ```
-### Icon usage
+## Icon usage
 You can both append and prefix an icon with the button component. To do this, make use of the slots `appendIcon` and `prefixIcon` with our [icon component]('/components/icon.html').
 
 ```html
-<Button>
+<UButton>
   Example
   <template #appendIcon>
     <Icon>
       {{ mdiAccount }}
     </Icon>
   </template>
-</Button>
+</UButton>
 ```
 
-### Sizes
+## Sizes
 
 The default size for the button component is `md`. However, to change this, pass your desired size out of `xs`, `s`, `lg` and `xl` through the size prop like so.
 
 ```html
-<Button size="sm">Example</Button>
+<UButton size="sm">Example</UButton>
 ```
+
+## Button group
+You can create a button group using props. Assign all the buttons the `group` prop. Then ensure that the first and last buttons have the `first` and `last` props assigned also. 
+
+You can then pass the `active` prop that accepts a boolean to apply active button styling. 
+
+```html
+<UButton group first :active="false">
+  First
+</UButton>
+<UButton group :active="false">
+  Middle
+</UButton>
+<UButton group last :active="true">
+  Middle
+</UButton>
+```
+
+## Emits
+The Button component also emits `click`, `mouseenter` and `mouseout` events.
+
+```html
+<UButton @click="e => example(e)">
+  Example
+</UButton>
+```
+
 ## Figma
 
 See below for the Figma component.
@@ -65,7 +93,15 @@ See below for the Figma component.
 
 | Property              | Type                       |
 | --------------------- | -------------------------- |
-| width       | string            |
-| height       | string            |
-| width       | string            |
-| height       | string            |
+| class       | string | string[]            |
+| size       | `small` `medium` `large`            |
+| disabled       | boolean           |
+| type       | `primary` `secondary` `variant` `text` `error` `succes`           |
+| ariaRole | string |
+| href | string | 
+| target | string |
+| group | boolean |
+| first | boolean |
+| last | boolean |
+| active | boolean |
+| text | string |

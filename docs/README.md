@@ -1,18 +1,18 @@
-# Unlocked Documentation
-
-<!-- <p align="center padding: 10">
+<p style="text-align:center; margin-top:50px;">
   <a href="https://unlocked.to" target="_blank">
-    <img alt="Unlocked logo" width="100" src="https://unlocked.to/logo-dark.svg">
+    <img alt="Unlocked logo" width="200" src="https://unlocked.to/images/logo/logo-dark.svg">
   </a>
-</p> -->
+</p>
 
-Here at Unlocked, we're aiming to build a component library to help you build the future. 
+## Who are we?
 
-This documentation covers implementation details for individual components as well as how to use Unlocked as a foundation to build out your design system. You can also [check out Unlocked's storybook]('https://storybook.unlocked.to').
+Here at Unlocked, we're aiming to build a component library to help you build a product and design system for the future. You can find out more about our mission at our official website.
+
+This documentation covers everything from installation to implementation. If you have any issues or recognise any obvious areas, the documentation GitHub is open-source and eager to bring on new members to our community!
 
 ## How to contribute
 
-Unlocked hopes to become a self-sustaining community of developers and designers. If you wish to become a maintainer, check out our [contribution guide]('/community/contribution-guide').
+Unlocked hopes to become a self-sustaining community of developers and designers. If you wish to become a maintainer, we will soon be providing a contribution handbook and guide.
 
 ## Raising an issue
 

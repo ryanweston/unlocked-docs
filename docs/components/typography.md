@@ -1,31 +1,57 @@
 ---
 title: Typography
 ---
-# App bar
+# Typography
 
-There are a number of available typography components to use: `Headline`, `Title`, `Subtitle`, `Body` & `Subtext`.
+Unlocked typography components: `Headline`, `Subtitle`, `Body` & `Caption`.
+
+## Usage
 
 #### Install
-```js
-npm i @unlocked/foundation
+```bash
+npm install @unlocked/base
 ```
 
 #### Import
 ```js
-import { UHeadline } from '@unlocked/foundation
+import { UHeadline } from '@unlocked/base
 ```
-## Usage
+```js
+import { USubtitle } from '@unlocked/base
+```
+```js
+import { UBody } from '@unlocked/base
+```
+```js
+import { UCaption } from '@unlocked/base
+```
+
+## Type
+### Headline
+The headline has a size prop with a range from `1` to `6`. The default being `1`.
 
 ```html
-<Headline>Example</Headline>
+<UHeadline :size="6">Example</Headline>
 ```
-### Variants
 
-There are a few props that enable you to use our typography components with the rest of your site.
-The `disabled` prop is the first of these.
+### Subtitle
+The subtitle has a size prop with a range from `1` to `2`. The default being `1`.
 
 ```html
-<Headline disabled>Example</Headline>
+<USubtitle :size="2">Example</Headline>
+```
+
+### Body
+The body has a size prop with a range from `1` to `2`. The default being `1`.
+
+```html
+<UBody :size="2">Example</UBody>
+```
+
+### Caption
+
+```html
+<UCaption>Example</UCaption>
 ```
 ## Figma
 
@@ -37,7 +63,5 @@ See below for the Figma component.
 
 | Property              | Type                       |
 | --------------------- | -------------------------- |
-| width       | string            |
-| height       | string            |
-| width       | string            |
-| height       | string            |
+| class      | string | string[]            |
+| size     | `See above`            |

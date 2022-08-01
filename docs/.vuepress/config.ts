@@ -11,22 +11,13 @@ export const sidebar = [
           link: '/getting-started/installation.md'
         },
         {
-          text: 'Customisation',
-          link: '/getting-started/customisation.md'
-        }
-      ]
-    },
-    {
-      text: 'Styles',
-      children: [
-        {
           text: 'Creating a theme',
-          link: '/styles/creating-a-theme.md'
+          link: '/getting-started/creating-a-theme.md'
         },
         {
           text: 'Design tokens',
-          link: '/styles/design-tokens.md'
-        }
+          link: '/getting-started/design-tokens.md'
+        },
       ]
     },
     { 
@@ -41,30 +32,36 @@ export const sidebar = [
           link: '/components/button'
         },
         {
-          text: 'App bar',
-          link: '/components/app-bar'
+          text: 'Tooltip',
+          link: '/components/tooltip'
+        },
+        {
+          text: 'Link',
+          link: '/components/link'
         },
         {
           text: 'Typography',
           link: '/components/typography'
         },
+        
+      ]
+    },
+    {
+      text: 'Compositions',
+      children: [
         {
-          text: 'Dropdown',
-          link: '/components/dropdown'
-        },
-        {
-          text: 'Footer',
-          link: '/components/footer'
+          text: 'Getting started',
+          link: '/compositions/getting-started.md'
         },
       ]
-    }
+    },
   ]
 
 export default defineUserConfig<DefaultThemeOptions>({
   // site config
   lang: 'en-US',
   title: 'Unlocked',
-  description: 'Unlocked UI component documentation',
+  description: 'Unlocked Documentation',
   // theme and its config
   theme: path.resolve(__dirname, './theme'),
   themeConfig: {
