@@ -1,8 +1,11 @@
-
 # Installation
 
 Unlocked consists of two products. We believe in the atomic design approach and
 our component library and compositions are subsequently structured as such. Feel free to take a look at our [compositions](https://unlocked.to/compositions) and the [getting started documentation](/compositions/getting-started).
+
+:::tip
+Experiment with Unlocked by forking our [playground template](https://codesandbox.io/s/unlocked-playground-3xxjez)!
+:::
 
 ### Install package 
 ```bash

@@ -2,7 +2,7 @@
 Icon component for Unlocked.
 
 <iframe
-  src="https://www.storybook.unlocked.to/iframe.html?id=components-icon--default&viewMode=story"
+  src="https://www.storybook.unlocked.to/iframe.html?id=components-icon--primary&viewMode=story"
   width="100%"
   height="70"
 ></iframe>
