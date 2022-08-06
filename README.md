@@ -1,5 +1,3 @@
-# Unlocked documentation
-
 <p align="center">
   <a href="https://unlocked.to" target="_blank">
     <img alt="Unlocked logo" width="100" src="https://unlocked.to/images/logo/logo-dark.svg">
@@ -12,9 +10,31 @@
   </a>
 </p>
 
+# Unlocked documentation
+
 The official documentation site for Unlocked. 
 
 ## 🔧 Development & maintenance
+
+### Installation
+
+#### Install packages
+
+```console
+yarn
+````
+
+#### Preview
+
+```console
+yarn docs:dev
+````
+
+#### Build
+
+```console
+yarn docs:build
+````
 
 ### Commit style
 Commit messages must conform to the to the [conventional commits format](https://www.conventionalcommits.org/en/v1.0.0/#summary).
