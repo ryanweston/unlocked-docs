@@ -65,12 +65,16 @@ export default defineUserConfig<DefaultThemeOptions>({
   // theme and its config
   theme: path.resolve(__dirname, './theme'),
   themeConfig: {
-    logo: '/images/logo.svg',
-    docsRepo: 'ryanweston/unlocked-docs',
-    repo: 'ryanweston/',
+    logo: '/images/logo-dark-small.svg',
+    docsRepo: 'UnlockedUI/unlocked-docs',
+    repo: 'UnlockedUI/unlocked-docs',
+    docsBranch: 'master',
     sidebar,
-    // logo: 'https://vuejs.org/images/logo.png',
+    logoDark: '/images/logo.svg',
   },
+  head: [
+    ['link', { rel: 'shortcut icon', type: "image/x-icon", href: `/favicon.ico` }]
+  ],
   plugins: [
     [
       '@vuepress/plugin-search',

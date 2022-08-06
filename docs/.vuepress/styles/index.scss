@@ -23,13 +23,28 @@
 // DARK MODE OVERRIDES
 
 html.dark {
+  
+  .darkLogo { 
+    display:none;
+  }
+  .lightLogo { 
+    display:block;
+  }
   // brand colors
   --c-brand: #FFF;
-  
 
   // background colors
   --c-bg: #000;
 
   // text colors
   --c-text: #FFF;
+}
+
+html { 
+  .darkLogo { 
+    display:block;
+  }
+  .lightLogo { 
+    display:none;
+  }
 }
