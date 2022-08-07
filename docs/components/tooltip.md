@@ -69,17 +69,17 @@ const customAction = (callback) => {
 }
 ```
 ```html
-<u-tooltip top>
+<UTooltip top>
   <template #activator="{reveal}">
-    <u-button
+    <UButton
       type="variant"
       @click="() => { customAction(reveal)}"
     >
       Click me
-    </u-button>
+    </UButton>
   </template>
   Tooltip!
-</u-tooltip>
+</UTooltip>
 ```
 
 ## Figma
