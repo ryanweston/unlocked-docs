@@ -18,6 +18,10 @@ export const sidebar = [
           text: 'Design tokens',
           link: '/getting-started/design-tokens.md'
         },
+        {
+          text: 'Typings',
+          link: '/getting-started/typings.md'
+        },
       ]
     },
     { 
