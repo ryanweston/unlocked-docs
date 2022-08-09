@@ -7,6 +7,7 @@ Link component for Unlocked.
   height="70"
 ></iframe>
 
+[View on storybook](https://www.storybook.unlocked.to/?path=/story/components-link--default)
 ## Usage
 
 #### Install

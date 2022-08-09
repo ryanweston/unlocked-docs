@@ -7,6 +7,8 @@ Icon component for Unlocked.
   height="70"
 ></iframe>
 
+[View on storybook](https://www.storybook.unlocked.to/?path=/story/components-icon--primary)
+
 ::: warning
 We currently only support [material design icons](https://github.com/Templarian/MaterialDesign-JS). 
 :::
