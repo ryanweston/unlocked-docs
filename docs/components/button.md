@@ -8,7 +8,7 @@ Button component for Unlocked.
   height="70"
 ></iframe>
 
-[View on storybook](https://www.storybook.unlocked.to/?path=/story/components-icon--primary)
+[View on storybook](https://www.storybook.unlocked.to/?path=/story/components-button--primary)
 
 ## Usage
 
